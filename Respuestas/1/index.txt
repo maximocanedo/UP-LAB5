@@ -1,0 +1,10 @@
+Validar el hash de la evidencia:
+
+Memory-dump.zip
+   Hash recibido:9ccedbb0683cc49ba7b2623007f930bb(md5) 50b4e7b18ee33dc0faea72a39a35ff05cdc86765(sha1)
+   Hash generado:9ccedbb0683cc49ba7b2623007f930bb(md5) 50b4e7b18ee33dc0faea72a39a35ff05cdc86765(sha1)
+Memory-dump.vmem
+   Hash recibido:20d420729287026a3f55704154bd6163(md5) aee1a80fed6671f3c3bb7d8bbe069c94f16fac09(sha1)
+   Hash generado:20d420729287026a3f55704154bd6163(md5) aee1a80fed6671f3c3bb7d8bbe069c94f16fac09(sha1)
+
+Los hashes son iguales, por lo que la evidencia es válida.

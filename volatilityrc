@@ -1,0 +1,4 @@
+[DEFAULT]
+PROFILE=WinXPSP2x86
+LOCATION=file:///home/kali/UP-LAB5/memory-dump.vmem
+KDBG=0x80544ce0L

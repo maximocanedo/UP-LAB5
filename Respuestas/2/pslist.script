@@ -1,0 +1,114 @@
+Script started on 2023-09-01 11:35:10-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="166" LINES="41"]
+                                                                                                                                                                      ]0;kali@kali: ~/UP-LAB5/Respuestas/2[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/UP-LAB5/Respuestas/2[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4mc[24m[4mc[24m[38;2;153;153;153md ../..[39m[24m[36mc[36md[39m[39m [39m[1m.[0m[1m.[39m[1m.[0m[1m.[39m[1m/[0m[1m/[39m[1m.[0m[1m.[39m[1m.[0m[?1l>[?2004l
+                                                                                                                                                                      ]0;kali@kali: ~/UP-LAB5
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/UP-LAB5[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1mv[0m[1mv[0m[38;2;153;153;153mi .gitignore[39m[12D[1mv[39m[1mo[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153mlatility imageinfo[39m[18D[1mv[1mo[39m[1ml[0m[1ml[39m[1ma[0m[1ma[39m[1mt[0m[1mt[39m[1mi[0m[1mi[39m[1ml[0m[1ml[39m[1mi[0m[1mi[39m[1mt[0m[9D[0m[36mv[0m[36mo[0m[36ml[0m[36ma[0m[36mt[0m[36mi[0m[36ml[0m[36mi[0m[36mt[36my[39m[39m [39mp[39m [39m [39m [39m [39m [39m [39m [39m [8Dslist[?1l>[?2004l
+Volatility Foundation Volatility Framework 2.6
+Offset(V)  Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+---------- -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0x823c8830 System                    4      0     58      573 ------      0                                                              
+0x81f04228 smss.exe                548      4      3       21 ------      0 2010-02-26 03:34:02 UTC+0000                                 
+0x822eeda0 csrss.exe               612    548     12      423      0      0 2010-02-26 03:34:04 UTC+0000                                 
+0x81e5b2e8 winlogon.exe            644    548     21      521      0      0 2010-02-26 03:34:04 UTC+0000                                 
+0x82256da0 services.exe            688    644     16      293      0      0 2010-02-26 03:34:05 UTC+0000                                 
+0x82129da0 lsass.exe               700    644     22      416      0      0 2010-02-26 03:34:06 UTC+0000                                 
+0x81d3f020 vmacthlp.exe            852    688      1       35      0      0 2010-02-26 03:34:06 UTC+0000                                 
+0x82266870 svchost.exe             880    688     28      340      0      0 2010-02-26 03:34:07 UTC+0000                                 
+0x822e1da0 svchost.exe             948    688     10      276      0      0 2010-02-26 03:34:07 UTC+0000                                 
+0x822ea020 svchost.exe            1040    688     83     1515      0      0 2010-02-26 03:34:07 UTC+0000                                 
+0x81dea020 svchost.exe            1100    688      6       96      0      0 2010-02-26 03:34:07 UTC+0000                                 
+0x81de55f0 svchost.exe            1244    688     19      239      0      0 2010-02-26 03:34:08 UTC+0000                                 
+0x81dde568 spoolsv.exe            1460    688     11      129      0      0 2010-02-26 03:34:10 UTC+0000                                 
+0x821018b0 vmtoolsd.exe           1628    688      5      220      0      0 2010-02-26 03:34:25 UTC+0000                                 
+0x81ddd8d0 VMUpgradeHelper        1836    688      4      108      0      0 2010-02-26 03:34:34 UTC+0000                                 
+0x820d6b88 alg.exe                2024    688      7      130      0      0 2010-02-26 03:34:35 UTC+0000                                 
+0x81cdd790 explorer.exe           1756   1660     14      345      0      0 2010-02-26 03:34:38 UTC+0000                                 
+0x81ca96f0 VMwareTray.exe         1108   1756      1       59      0      0 2010-02-26 03:34:39 UTC+0000                                 
+0x820cd5c8 VMwareUser.exe         1116   1756      4      179      0      0 2010-02-26 03:34:39 UTC+0000                                 
+0x81cee5f8 wscntfy.exe            1132   1040      1       38      0      0 2010-02-26 03:34:40 UTC+0000                                 
+0x82333620 msiexec.exe             244    688      5      181      0      0 2010-02-26 03:46:06 UTC+0000                                 
+0x81ce1af8 msiexec.exe             452    244      0 --------      0      0 2010-02-26 03:46:07 UTC+0000   2010-02-26 03:46:28 UTC+0000  
+0x81c80c78 wuauclt.exe             440   1040      8      188      0      0 2010-02-27 19:48:49 UTC+0000                                 
+0x8221a020 wuauclt.exe             232   1040      4      136      0      0 2010-02-27 19:49:11 UTC+0000                                 
+0x82068020 firefox.exe             888   1756      9      172      0      0 2010-02-27 20:11:53 UTC+0000                                 
+0x820618c8 AcroRd32.exe           1752    888      8      184      0      0 2010-02-27 20:12:23 UTC+0000                                 
+0x82209640 svchost.exe            1384    688      9      101      0      0 2010-02-27 20:12:36 UTC+0000                                 
+                                                                                                                                                                      ]0;kali@kali: ~/UP-LAB5
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/UP-LAB5[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mvolatility[39m pslist [1m[34m>[0m[39m [1mR[0m[1mR[1me[0m[1me[1ms[0m[1ms[1mp[0m[1mp[1mu[0m[1mu[1me[0m[1me[1ms[0m[1ms[1mt[0m[1mt[1ma[0m[1ma[1ms[0m[1ms[1m/[0m[1m/[1m2[0m[1m2[1m/[0m[1m/[1mp[0m[1mp[1ms[0m[1ms[1ml[0m[1ml[1mi[0m[1mi[1ms[0m[1ms[1mt[0m[1mt[1m.[0m[20D[0mR[0me[0ms[0mp[0mu[0me[0ms[0mt[0ma[0ms[0m/[0m2[0m/[0mp[0ms[0ml[0mi[0ms[0mt[0m.output[?1l>[?2004l
+Volatility Foundation Volatility Framework 2.6
+                                                                                                                                                                      ]0;kali@kali: ~/UP-LAB5
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/UP-LAB5[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mvolatility[39m pslist [1m[34m>[0m[39m [1mRespuestas/2/pslist.output[0m[1mu[0m[0m [38;2;153;153;153mt[39m[1mp[0m[0m [39m [38;2;153;153;153mut[39m[1mt[0m[0m [39m [39m [38;2;153;153;153mput[39m[1mu[0m[0m [39m [39m [39m [38;2;153;153;153mtput[39m[1mo[0m[0m [39m [39m [39m [39m [38;2;153;153;153mutput[39m[1m.[0m[0m [39m [39m [39m [39m [39m [38;2;153;153;153moutput[39m[1mt[0m[0m [39m [39m [39m [39m [39m [39m [38;2;153;153;153m.output[39m[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153mt.output[39m[8D[1mi[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mst.output[39m[9D[1ml[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153mist.output[39m[10D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153mlist.output[39m[11D[1mp[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153mslist.output[39m[12D[1m/[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153mpslist.output[39m[13D[1m2[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153m/pslist.output[39m[14D[1m/[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;2;153;153;153m2/pslist.output[39m[15D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;2;153;153;153m/2/pslist.output[39m[16D[1ma[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[38;2;153;153;153ms/2/pslist.output[39m[17D[1mt[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[38;2;153;153;153mas/2/pslist.output[39m[18D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[38;2;153;153;153mtas/2/pslist.output[39m[19D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[38;2;153;153;153mstas/2/pslist.output[39m[20D[1mu[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21D[38;2;153;153;153mestas/2/pslist.output[39m[21D[1mp[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [22D[38;2;153;153;153muestas/2/pslist.output[39m[22D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [23D[38;2;153;153;153mpuestas/2/pslist.output[39m[23D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[38;2;153;153;153mspuestas/2/pslist.output[39m[24D[1mR[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [25D[38;2;153;153;153mespuestas/2/pslist.output[39m[25D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [26D[38;2;153;153;153mRespuestas/2/pslist.output[39m[26D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[38;2;153;153;153m Respuestas/2/pslist.output[39m[27D[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[38;2;153;153;153m> Respuestas/2/pslist.output[39m[28D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [29D[38;2;153;153;153m > Respuestas/2/pslist.output[39m[29D[39m [32m-[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [27D[32m-[32mh[39m[32mh[32me[39m[32me[32ml[39m[32ml[32mp[39m[?1l>[?2004l
+Volatility Foundation Volatility Framework 2.6
+Usage: Volatility - A memory forensics analysis platform.
+
+volatility: error: no such option: -e
+                                                                                                                                                                      ]0;kali@kali: ~/UP-LAB5
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/UP-LAB5[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mvolatility[39m pslist [32m-help[39m[32ml[39m[39m [38;2;153;153;153mp[39m[32me[39m[39m [39m [38;2;153;153;153mlp[39m[32mh[39m[39m [39m [39m [38;2;153;153;153melp[39m[39m [39m [39m [?1l>[?2004l
+Volatility Foundation Volatility Framework 2.6
+Usage: Volatility - A memory forensics analysis platform.
+
+Options:
+  -h, --help            list all available options and their default values.
+                        Default values may be set in the configuration file
+                        (/etc/volatilityrc)
+  --conf-file=/home/kali/.volatilityrc
+                        User based configuration file
+  -d, --debug           Debug volatility
+  --plugins=PLUGINS     Additional plugin directories to use (colon separated)
+  --info                Print information about all registered objects
+  --cache-directory=/home/kali/.cache/volatility
+                        Directory where cache files are stored
+  --cache               Use caching
+  --tz=TZ               Sets the (Olson) timezone for displaying timestamps
+                        using pytz (if installed) or tzset
+  -f FILENAME, --filename=FILENAME
+                        Filename to use when opening an image
+  --profile=WinXPSP2x86
+                        Name of the profile to load (use --info to see a list
+                        of supported profiles)
+  -l file:///home/kali/UP-LAB5/memory-dump.vmem, --location=file:///home/kali/UP-LAB5/memory-dump.vmem
+                        A URN location from which to load an address space
+  -w, --write           Enable write support
+  --dtb=DTB             DTB Address
+  --shift=SHIFT         Mac KASLR shift address
+  --output=text         Output in this format (support is module specific, see
+                        the Module Output Options below)
+  --output-file=OUTPUT_FILE
+                        Write output in this file
+  -v, --verbose         Verbose information
+  -g 2153008352, --kdbg=2153008352
+                        Specify a KDBG virtual address (Note: for 64-bit
+                        Windows 8 and above this is the address of
+                        KdCopyDataBlock)
+  --force               Force utilization of suspect profile
+  -k KPCR, --kpcr=KPCR  Specify a specific KPCR address
+  --cookie=COOKIE       Specify the address of nt!ObHeaderCookie (valid for
+                        Windows 10 only)
+  -o OFFSET, --offset=OFFSET
+                        EPROCESS offset (in hex) in the physical address space
+  -p PID, --pid=PID     Operate on these Process IDs (comma-separated)
+  -n NAME, --name=NAME  Operate on these process names (regex)
+  -P, --physical-offset
+                        Display physical offsets instead of virtual
+
+Module Output Options: dot, greptext, html, json, sqlite, text, xlsx
+
+---------------------------------
+Module PSList
+---------------------------------
+Print all running processes by following the EPROCESS lists 
+
+                                                                                                                                                                      ]0;kali@kali: ~/UP-LAB5
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/UP-LAB5[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[36mvolatility[39m pslist [32m-h[39m[32m-[39m[39m [38;2;153;153;153mh[39m[39m [39m [38;2;153;153;153m-h[39m[32m-[39m[32m-[32m-[39m[32m-[32mo[39m[32mo[32mu[39m[32mu[32mt[39m[32mt[32mp[39m[32mp[32mu[39m[32mu[32mt[39m[32mt[32m=[39m[32m=[32mx[39m[32mx[32ml[39m[32ml[32ms[39m[32ms[32mx[39m [32m-[39m[32m-[32m-[39m[32m-[32mo[39m[32mo[32mu[39m[32mu[32mt[39m[32mt[32mp[39m[32mp[32mu[39m[32mu[32mt[39m[32mt[32m-[39m[32m-[32mf[39m[32mf[32mi[39m[32mi[32ml[39m[32ml[32me[39m[32me[32m=[39m[32m=[32mR[39m[32mR[32me[39m[32me[32ms[39m[32ms[32mp[39m[32mp[32mu[39m[32mu[32me[39m[32me[32ms[39m[32ms[32mt[39m[32mt[32ma[39m[32ma[32ms[39m[32ma[39m[39m [32mt[39m[39m [32ms[39m[39m [32me[39m[39m [32mu[39m[39m [32mp[39m[39m [32ms[39m[39m [32me[39m[39m [32mR[39m[39m [32m=[39m[39m [32m=[32m$[39m[32m=[39m[39m [32m=[32m3[39m[32m=[39m[39m [32m=[32m·[39m[32m=[39m[39m [32m=[32m~[39m[32m~[32m/[39m[32m/[32mK[39m[32m/[39m[39m [32m/[32mU[39m[32mU[32mP[39m[32mP[32m-[39m[32m-[32mL[39m[32mL[32mA[39m[32mA[32mB[39m[32mB[32m4[39m[32mB[39m[39m [32mB[32m5[39m[32m5[32m/[39m[32m/[32mR[39m[32mR[32me[39m[32me[32ms[39m[32ms[32mp[39m[32mp[32mu[39m[32mu[32me[39m[32me[32ms[39m[32ms[32mt[39m[32mt[32ma[39m[32ma[32ms[39m[32ms[32m/[39m[32m/[32m2[39m[32m2[32m/[39m[32m/[32mp[39m[32mp[32ms[39m[32ms[32ml[39m[32ml[32mi[39m[32mi[32ms[39m[32ms[32mt[39m[32mt[32ms[39m[32ms[32m.[39m[32ms[39m[39m [32mt[39m[39m [32mt[32m.[39m[32m.[32ms[39m[32m.[39m[39m [32m.[32mx[39m[32mx[32ml[39m[32ml[32ms[39m[32ms[32mx[39m[?1l>[?2004l
+Volatility Foundation Volatility Framework 2.6
+Outputting to: /home/kali/UP-LAB5/Respuestas/2/pslist.xlsx
+                                                                                                                                                                      ]0;kali@kali: ~/UP-LAB5
+[0m[27m[24m[J[32m┌──([1m[32m[34mkali㉿kali[0m[34m[32m)-[[1m[32m[39m~/UP-LAB5[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?2004l
+
+Script done on 2023-09-01 11:38:11-04:00 [COMMAND_EXIT_CODE="0"]
