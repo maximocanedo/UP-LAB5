@@ -1,0 +1,46 @@
+#!/bin/bash
+
+#*****************************************
+#* Laboratorio 02 - Titulo *
+#*****************************************
+#Script de instalacion de herramientas para resolver el labo02 de Infomática forense
+
+mkdir /tmp/labo02_tools
+cd /tmp/labo02_tools
+
+#Instalar pyenv
+sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
+curl https://pyenv.run | bash
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init --path)"\nfi' >> ~/.zshrc
+
+
+#pyenv install 2.7.18
+#pyenv global 2.7.18
+
+#Instalacion de Volatility
+wget http://downloads.volatilityfoundation.org/releases/2.6/volatility_2.6_lin64_standalone.zip
+unzip volatility_2.6_lin64_standalone.zip
+sudo mv volatility_2.6_lin64_standalone /opt/volatility
+sudo ln -s /opt/volatility/volatility_2.6_lin64_standalone /usr/local/bin/volatility
+
+sudo apt install foremost pdfid pdf-parser gcc-multilib
+
+# Arreglar pdf-parser
+
+sudo apt install gcc-multilib
+wget http://didierstevens.com/files/software/js-1.7.0-mod-c.zip
+unzip js-1.7.0-mod-c.zip
+sudo mv /tmp/labo02_tools/js-1.7.0-mod-c/Linux /opt/js-1.7.0-mod-c
+chmod +x /opt/js-1.7.0-mod-c/js-ascii
+chmod +x /opt/js-1.7.0-mod-c/js-file
+sudo ln -s /opt/js-1.7.0-mod-c/js-ascii /usr/local/bin/js-ascii
+sudo ln -s /opt/js-1.7.0-mod-c/js-file /usr/local/bin/js-file
+
+#Limpieza de los archivos temporales
+
+sudo apt install -y docker.io
+sudo systemctl enable docker --now
+
+rm -rf /tmp/labo02_tools
