@@ -1,0 +1,28 @@
+md5sum memory-dump.zip
+shasum memory-dump.zip
+unzip memory-dump.zip
+ll
+file memory-dump.zip
+file memory-dump.vmem
+
+volatility --help
+(2) cd Projects
+(2) mkdir labo02
+(2) mkdir labo02/evidence
+(2) ll
+(2) move memory-dump.vmem ~/Projects/labo02/evidence
+(2) cd evidence
+(2) ll
+volatility imageinfo -f memory-dump.vmem
+(2) evidence/> nano volatilityrc
+..<[[DEFAULT]
+PROFILE=WinXPSP2x86
+LOCATION=file://[ABSOLUTE ADDRESS]/memory-dump.vmem
+KDBG=0x80544ce0L
+]/>
+(Check GitHub)
+(2) cat volatilitytc
+ll
+volatility pslist --profile=WinXPSP2x86
+
+
