@@ -1,0 +1,16 @@
+# Hacemos un backup del sources.list por si algo male sal.
+sudo mv /etc/apt/sources.list /etc/apt/sources.list.bak
+# Acá eliminamos todos los archivos de esta carpeta.
+sudo find /var/lib/apt/lists -type f -exec rm {} \; 
+# Descargamos el sources.list de acá.
+sudo wget https://gist.githubusercontent.com/ishad0w/788555191c7037e249a439542c53e170/raw/3822ba49241e6fd851ca1c1cbcc4d7e87382f484/sources.list -O /etc/apt/sources.list
+# Configuramos las keys.
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F3
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 871920D1991BC93
+# Actualizamos. 
+sudo apt update
+# Nos fijamos que Snort aparezca (Opcional)
+apt search snort
+# Instalar Snort. Puede que aparezca un pantallazo azul, en tal caso, dar "OK" y continuar.
+sudo apt install snort
+# ¡Listo!
