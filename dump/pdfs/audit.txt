@@ -1,0 +1,29 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Sep 10 16:17:28 2023
+Invocation: foremost -i 1752.dmp -t pdf -o pdfs 
+Output directory: /home/kali/UP-LAB5/dump/pdfs
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: 1752.dmp
+Start: Sun Sep 10 16:17:28 2023
+Length: 318 MB (334217216 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00445397.pdf 	      419 B 	  228043624 	 
+1:	00446730.pdf 	      419 B 	  228726208 	 
+2:	00579981.pdf 	      425 B 	  296950712 	 
+3:	00585184.pdf 	      425 B 	  299614496 	 
+4:	00600544.pdf 	      425 B 	  307478528 	 
+5:	00600928.pdf 	      58 KB 	  307675136 	  (PDF is Linearized)
+6:	00601560.pdf 	     592 KB 	  307998753 	 
+Finish: Sun Sep 10 16:17:29 2023
+
+7 FILES EXTRACTED
+	
+pdf:= 7
+------------------------------------------------------------------
+
+Foremost finished at Sun Sep 10 16:17:29 2023
