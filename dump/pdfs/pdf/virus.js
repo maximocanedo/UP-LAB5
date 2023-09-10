@@ -68,6 +68,7 @@ function bitwiseLogicalOperation(l, m) {
 	return f;
 } // bitwiseLogicalOperation
 
+/*
 // Convierte un booleano en un caracter binario.
 function booleanToBinary(n) {
 	return n ? "1" : "0";
@@ -80,8 +81,10 @@ executeWithTransform(
 );
 
 // Función que realiza la operación XOR.
-const XOR = (p, q) => (p || q) && !(p && q);
-
+function XOR(p, q) {
+	return (p || q) && !(p && q);
+}
+*/
 function bitwiseOperationBetweenStrings(g, o) {
 	return bitwiseLogicalOperation(identityFunction(o), identityFunction(g));
 }
